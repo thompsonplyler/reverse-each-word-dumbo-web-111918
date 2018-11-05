@@ -7,4 +7,5 @@ sen_array each do |x|
 end
 
 reverse_array
+end
 # for each item in sen_array, reverse the word
