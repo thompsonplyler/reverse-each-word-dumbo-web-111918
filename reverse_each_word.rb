@@ -14,9 +14,9 @@ sen_array = sentence.split(" ")
 reverse_array = []
 
 sen_array.collect do |x|
-  reverse_array << x.reverse
+  x.reverse
 end
 
-reverse_array.join(" ")
+sen_array.join(" ")
 end
 # for each item in sen_array, reverse the word
