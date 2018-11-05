@@ -3,7 +3,7 @@ sen_array = sentence.split(" ")
 word = []
 
 sen_array.each do |x|
-  word << x.split.reverse
+  word << x.split
   word
 end
 word
