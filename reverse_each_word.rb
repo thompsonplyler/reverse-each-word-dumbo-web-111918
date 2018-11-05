@@ -4,4 +4,5 @@ reversed = []
   sentence.collect do |x|
     reversed = x.reverse
     reverse.join
+  end
 end
