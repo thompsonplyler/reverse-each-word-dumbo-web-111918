@@ -6,6 +6,6 @@ sen_array.each do |x|
   reverse_array << x.reverse
 end
 
-reverse_array
+reverse_array.join(" ")
 end
 # for each item in sen_array, reverse the word
