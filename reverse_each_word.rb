@@ -4,6 +4,7 @@ word = []
 
 sen_array.each do |x|
   word << x.split.reverse
+  word
 end
 end
 
