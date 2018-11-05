@@ -1,6 +1,9 @@
 def reverse_each_word(sentence)
 sen_array = sentence.split(" ")
-sen_array.reverse
+reverse_array = []
+
+sen_array each do |x|
+
 sen_array[1].reverse
 end
 
